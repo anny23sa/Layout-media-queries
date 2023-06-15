@@ -7,22 +7,22 @@
     <script src="https://kit.fontawesome.com/35311192b8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Media-Queries</title>
 </head>
 <body>
     <div class="container">
-      <!--menu-->
+      
         <div class="navbar_menu">
           <div class="menu_logo_tienda">
-            <i class="fa fa-bars"></i>
+            <i class="fa-solid fa-wand-magic-sparkles"></i>
           </div>
           <div class="menu_texto_tienda">Mis vestidos</div>
-          <div class="menu_items">
-            <ul class="menu_items">
+          <div class="menu_items_a">
+            <ul class="menu_item">
               <li><a href="#" class="active">Inicio</a></li>
-              <li><a href="#">Catálogo</a></li>
-              <li><a href="#">Oferta</a></li>
-              <li><a href="#">Contacto</a></li>
+              <li><a href="#" class="cat">Catálogo</a></li>
+              <li><a href="#" class="of">Oferta</a></li>
+              <li><a href="#" class="co">Contacto</a></li>
             </ul>
           </div>
             <div class="menu_icono_hamburguesa">
@@ -30,11 +30,14 @@
                 <i class="fa fa-bars"></i>
             </span>
         </div>
-    </div>    
+    </div>  
+     
+       
 <!--busqueda-->
     <div class="aside">
       <select class="form-select" aria-label="Default select example">
-        <option selected>Seleccione...</option>
+        <p></p>
+        <option selected>Precio</option>
         <option value="1">One</option>
         <option value="2">Two</option>
         <option value="3">Three</option>
@@ -43,7 +46,7 @@
 
 <!--vestidos-->
         <div class="main">
-            <div class="card text-center mb-3" style="width: 18rem;">
+            <div id="card1" class="card text-center mb-3" style="width: 18rem;">
                 <img src="./assets/img/Calipso.jfif" class="card-img-top" alt="Vestido_azul"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido azul Flores</h5>
@@ -66,7 +69,7 @@
                 </ul>
             </div>
 
-            <div class="card text-center" style="width: 18rem;">
+            <div id="card2" class="card text-center" style="width: 18rem;">
                 <img src="./assets/img/amarillo.jfif" class="card-img-top" alt="Vestido_Amarillo"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido Amarillo</h5>
@@ -89,7 +92,7 @@
                 </ul>
             </div>
 
-            <div class="card text-center" style="width: 18rem;">
+            <div id="card3" class="card text-center" style="width: 18rem;">
                 <img src="./assets/img/rojo.jfif" class="card-img-top" alt="Vestido_Rojo"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido Rojo</h5>
@@ -112,7 +115,7 @@
                 </ul>
             </div>
 
-            <div class="card text-center" style="width: 18rem;">
+            <div id="card4" class="card text-center" style="width: 18rem;">
                 <img src="./assets/img/verde.jfif" class="card-img-top" alt="Vestido_verde"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido Verde</h5>
@@ -135,7 +138,7 @@
                 </ul>
             </div>
 
-            <div class="card text-center" style="width: 18rem;" >
+            <div id="card5" class="card text-center" style="width: 18rem;" >
                 <img src="./assets/img/Rosa.jfif" class="card-img-top" alt="Vestido_Rosa"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido Rosa</h5>
@@ -158,7 +161,7 @@
                 </ul>
             </div>
 
-            <div class="card text-center"style="width: 18rem;" >
+            <div id="card6" class="card text-center"style="width: 18rem;" >
                 <img src="./assets/img/morado.jfif" class="card-img-top" alt="Vestido_Morado"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido Morado</h5>
@@ -181,7 +184,7 @@
                 </ul>
             </div>
 
-            <div class="card text-center" style="width: 18rem;">
+            <div id="card7" class="card text-center" style="width: 18rem;">
                 <img src="./assets/img/negro.jfif" class="card-img-top" alt="Vestido_negro"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido Negro</h5>
@@ -204,7 +207,7 @@
                 </ul>
             </div>
 
-            <div class="card text-center" style="width: 18rem;">
+            <div id="card8" class="card text-center" style="width: 18rem;">
                 <img src="./assets/img/Blanco.jfif" class="card-img-top" alt="Vestido_blanco"/>
                 <div class="card-body">
                     <h5 class="card-title">Vestido Noche Blanco</h5>
