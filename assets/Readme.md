@@ -1,0 +1,1 @@
+Lamentablemente no pude resolver, seguire intentando..
