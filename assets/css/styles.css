@@ -72,7 +72,7 @@ body{
     grid-area: pag;
 }
 .form-select{
-    width: 150px;
+    width: 600px;
 }
 .filtro p{
     margin-bottom: 10px;
@@ -125,6 +125,10 @@ body{
     }
     .aside{
         grid-area: aside;
+        width: 100%;
+    }
+    .form-select{
+        width: 100%;
     }
     .main{
         grid-area: main;
@@ -133,10 +137,11 @@ body{
     .car{
         display: grid;
         grid-template-columns:  repeat(4,1fr);
-        height:60px;
+        height: 40px;
     }    
     .footer{
         grid-area: footer;
+        
     }
     
 }
