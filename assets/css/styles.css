@@ -19,7 +19,6 @@ body{
 }
 .header_menu{
     display: flex;
-    
     justify-content: space-between;
 }
 .logo{
@@ -31,6 +30,10 @@ body{
     display: flex;
     margin-left: 20px;
 
+}
+.menu_item{
+    display: flex;
+    flex-direction: column;
 }
 .menu_icono_hamburguesa{
     margin-top: 20px;
@@ -135,63 +138,39 @@ body{
         "header main" 
         "footer main";
     }
-    
     .header{
         grid-area: header;
-
     }
-    .menu_logo_tienda{
+    .aside{
+        grid-area: aside;
+    }
+    .main{
+        grid-area: main;
+        display: block;
+    }
+    .footer{
+        grid-area: footer;
+    }
+    /*.menu_logo_tienda{
         margin: 20px;
     }
     .menu_item{
         display: grid;
         margin: 20px;
         gap: 20px;
-        
-    }
-    .aside{
-        grid-area: aside;
-
-        
-        
-    }
-
-    .main{
-        grid-area: main;
-        
-    }
-    .footer{
-        grid-area: footer;
-    }
-    .car{
+    }*/
+    /*.car{
         display: grid;
         grid-template-columns:  repeat(4,1fr);
     }    
-    .header{
-        grid-area: header;
-
-    }
+    
     .btn_menu{
         display: none;
-    }
-    .aside{
-        grid-area: aside;
-        
-        
     }
     
     .aside select{
         width: 100vh;
-        margin-top: 40px;
-    }
-    
-    .main{
-        grid-area: main;
-        display: block;
-       
-    }
-    .footer{
-        grid-area: footer;
+        
     }
     .car{
         display: grid;
