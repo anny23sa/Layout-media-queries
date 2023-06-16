@@ -40,15 +40,7 @@ body{
     margin-right: 40px;
 }
 
-.aside_menu{
-    grid-area: aside;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 .aside{
     grid-area: aside;
     background-color: rgb(247, 250, 249);
@@ -61,9 +53,7 @@ body{
     justify-items: center;
     align-content: stretch;
 }
-.div_memu_items_a{
-    display: none;
-}
+
 .menu_items_a ul li{
     list-style-type: none;
 }
@@ -87,23 +77,19 @@ body{
     width: 150px;
 }
 .filtro p{
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
-
-
 .card{ 
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    align-content: stretch;
+    align-content: space-evenly;
 }
-
 .card-img-top{
     height: 320px;
     width: 286px;
 }
-
 #card1{
     width: 50px;
 }
@@ -151,33 +137,15 @@ body{
     .footer{
         grid-area: footer;
     }
-    /*.menu_logo_tienda{
-        margin: 20px;
-    }
-    .menu_item{
-        display: grid;
-        margin: 20px;
-        gap: 20px;
-    }*/
-    /*.car{
-        display: grid;
-        grid-template-columns:  repeat(4,1fr);
-    }    
-    
-    .btn_menu{
-        display: none;
-    }
-    
-    .aside select{
-        width: 100vh;
-        
-    }
     .car{
         display: grid;
         grid-template-columns:  repeat(4,1fr);
-        height: 60px;
-    }  
+        height:60px;
+    }    
 }
+    
+    
+
 
    
     
