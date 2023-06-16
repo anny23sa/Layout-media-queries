@@ -53,14 +53,12 @@ body{
     justify-items: center;
     align-content: stretch;
 }
-
 .menu_items_a ul li{
     list-style-type: none;
 }
 .menu_item{
     display: none;
 }
-
 .main{
     grid-area: main;
     display: grid;
@@ -111,10 +109,8 @@ body{
     justify-content: center;
 }
     
-    
 
 @media screen and (min-width: 576px) {
-    
     .container{
         display: grid;
         grid-template-columns:  20% 80%;
@@ -134,14 +130,15 @@ body{
         grid-area: main;
         display: block;
     }
-    .footer{
-        grid-area: footer;
-    }
     .car{
         display: grid;
         grid-template-columns:  repeat(4,1fr);
         height:60px;
     }    
+    .footer{
+        grid-area: footer;
+    }
+    
 }
     
     
